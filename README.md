@@ -19,7 +19,7 @@ pip install streamlit requests beautifulsoup4 langchain_groq
 ## How to Use
 1. **Run the application**:
    ```sh
-   streamlit run app.py
+   streamlit run web_content_QA_tool.py
    ```
 2. **Enter URLs**: Input one or more URLs (one per line) and click the **Ingest Content** button.
 3. **Ask a Question**: Type a question based on the ingested content and click **Get Answer**.
