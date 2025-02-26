@@ -18,7 +18,7 @@ def scrape_webpage(url):
             return f"Error: Unable to fetch {url} (Status Code: {response.status_code})"
     except Exception as e:
         return f"Error: {str(e)}"
-
+# add
 # Streamlit UI
 st.set_page_config(page_title="Web Content Q&A Tool", layout="wide")
 st.title("🔎 Web Content Q&A Tool (Powered by ChatGroq LLaMA)")
